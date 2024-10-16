@@ -1,14 +1,16 @@
+
+
 from PIL import Image, ImageDraw, ImageFont
 
 # 画像全体に対するメッセージ描画可能エリアの比率
 MAX_RATIO = 0.8
 
 # フォント関連の定数
-FONT_MAX_SIZE = 256
-FONT_MIN_SIZE = 24
+FONT_MAX_SIZE = 128
+FONT_MIN_SIZE = 12
 
 # WindowsやLinuxではパスが異なる
-FONT_NAME = 'C:\\Windows\\Fonts\\arialbd.ttf'
+FONT_NAME = 'C:\\Windows\\Fonts\\malgun.ttf'
 FONT_COLOR_WHITE = (255, 255, 255, 0)
 
 # アウトプット関連の定数
